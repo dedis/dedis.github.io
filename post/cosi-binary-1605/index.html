@@ -6,7 +6,7 @@
   
   <meta charset="UTF-8">
   <title>
-    cosi binary | Decentralized Distributed Systems homepage
+    CoSi standalond binary release | Decentralized Distributed Systems homepage
   </title>
 
 
@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
 
   
-  <link rel="canonical" href="https://dedis.github.io/post/cosi-binary/"/>
+  <link rel="canonical" href="https://dedis.github.io/post/cosi-binary-1605/"/>
 
   
   <link rel="stylesheet" href="/css/sanitize.css">
@@ -60,26 +60,29 @@
   
   <main id="single" role="main">
     <div class="article-header">
-      <h1>cosi binary</h1>
+      <h1>CoSi standalond binary release</h1>
       <div class="meta">
-        Apr 4, 2016 &nbsp;
+        May 24, 2016 &nbsp;
         
       </div>
     </div>
     <article>
-      <p>We just finished our latest cothority-binary for you to try out. You can fetch the binary at</p>
+      <p>Dear all,</p>
 
-<p><a href="https://github.com/dedis/cothority/releases/latest">https://github.com/dedis/cothority/releases/latest</a></p>
+<p>with the acceptance of the paper &ldquo;Keeping Authorities ‘Honest or Bust’ with Decentralized Witness Cosigning&rdquo; <a href="http://arxiv.org/abs/1503.08768">http://arxiv.org/abs/1503.08768</a> at IEEE S&amp;P 2016 <a href="http://www.ieee-security.org/TC/SP2016/">http://www.ieee-security.org/TC/SP2016/</a>, we updated our code to make it even more easy to integrate it with your projects.</p>
 
-<p>or follow the compilation instructions at</p>
+<p>For details on how to use the CoSi-application, go to <a href="https://github.com/dedis/cosi/blob/master/README.md">https://github.com/dedis/cosi/blob/master/README.md</a> .</p>
 
-<p><a href="https://github.com/DeDiS/cothority">https://github.com/DeDiS/cothority</a></p>
+<p>The code is now based on our latest cothority-framework and can be called from your program to generate a collective signature of a file. The same code also verifies the signature or can be used as a server if you want to run your own cothority-group.</p>
 
-<p>Be sure to report any successful installation of your servers to</p>
+<p>There are two proposals to include the collective signing and verification in open-source-libraries:
+- Go crypto library: <a href="https://github.com/bford/golang-x-crypto">https://github.com/bford/golang-x-crypto</a>
+- C libsodium: <a href="https://github.com/bford/libsodium">https://github.com/bford/libsodium</a>
+Both forks can be used to verify the signatures created by our latest CoSi-release.</p>
 
-<p><a href="https://groups.google.com/forum/#!forum/cothority">https://groups.google.com/forum/#!forum/cothority</a></p>
+<p>If you have questions or remarks, feel free to contact us here or open issues on <a href="https://github.com/dedis/cosi">https://github.com/dedis/cosi</a> .</p>
 
-<p>Also don’t hesitate to ask questions on that forum or open issues on github.</p>
+<p>Yours, the DeDiS-team</p>
 
       
       
@@ -105,10 +108,8 @@
   
   <nav class="pagination-single">
     
-      <span class="previous">&larr; <a href="https://dedis.github.io/post/overview/" rel="prev">Overview of the project</a></span>
+      <span class="previous">&larr; <a href="https://dedis.github.io/post/master_1604/" rel="prev">2016-04 master-release</a></span>
     
-    
-      <span class="next"><a href="https://dedis.github.io/post/master_1604/" rel="next">2016-04 master-release</a> &rarr;</span>
     
   </nav>
 
